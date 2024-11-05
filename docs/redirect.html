@@ -13,9 +13,9 @@
 
     // Redirect to the app using the custom URL scheme
     if (token) {
-      window.location.href = `myteslaapp://oauth?access_token=${token}`;
+      window.location.href = `teslapp://oauth?access_token=${token}`;
     } else {
-      window.location.href = 'myteslaapp://oauth?error=invalid_token';
+      window.location.href = 'teslapp://oauth?error=invalid_token';
     }
   </script>
   <p>Redirecting to app...</p>
